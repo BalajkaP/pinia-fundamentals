@@ -7,6 +7,8 @@ export const useTodoListStore = defineStore('todoList', {
   }),
   actions: {
     addTodo(item) {
+      // Vložím new objekt { item, id, completed } do todoList pole
+      // Je zde zkratka, protože item: item je to samé jako jen item
       this.todoList.push({ item, id: this.id++, completed: false })
     },
     deleteTodo(itemId) {
