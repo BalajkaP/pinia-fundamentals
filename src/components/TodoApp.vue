@@ -1,3 +1,4 @@
+<!-- Je to PARENT component. TodoForm a TodoList jsou CHILD.-->
 <script setup>
 import TodoForm from './TodoForm.vue'
 import TodoList from './TodoList.vue'
@@ -11,5 +12,4 @@ import TodoList from './TodoList.vue'
   </div>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>

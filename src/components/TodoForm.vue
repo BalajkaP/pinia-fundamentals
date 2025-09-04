@@ -1,3 +1,4 @@
+<!-- App.vue Je PARENT component. TodoForm a TodoList jsou CHILD.-->
 <script setup>
 </script>
 
@@ -5,5 +6,4 @@
   <div></div>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>
